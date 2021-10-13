@@ -10,7 +10,7 @@ To train and test, directly use following code in 4 gpus situation:
 ## Dataset
 * Most of them can be directly gained from Google.
 * For FLIVE, please visit [here](https://baidut.github.io/PaQ-2-PiQ/)
-## Citaion
+## Citation
 To be continued...
 ## Acknowledge
 https://github.com/DensoITLab/ss-with-RIM
