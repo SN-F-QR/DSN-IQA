@@ -5,6 +5,7 @@ Source code for paper "Deep Superpixel-based Network for Blind Image Quality Ass
 * Pytorch >=1.7.1
 ## Usage with default setting
 To train and test, directly use following code in 4 gpus situation:
+
 `CUDA_VISIBLE_DEVICES="0,1,2,3" python -m torch.distributed.launch --nproc_per_node 4 ddpWorker.py`
 ## Dataset
 * Most of them can be directly gained from Google.
