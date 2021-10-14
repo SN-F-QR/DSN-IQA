@@ -10,7 +10,7 @@ class DataLoader(object):
         self.batch_size = batch_size
         self.istrain = istrain
 
-        if (dataset == 'live') | (dataset == 'csiq') | (dataset == 'tid2013') | (dataset == 'livec'):
+        if (dataset == 'live') | (dataset == 'csiq') | (dataset == 'livec'):
             # Train transforms
             if isFull:
                 if istrain:
